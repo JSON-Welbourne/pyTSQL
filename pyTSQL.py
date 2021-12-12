@@ -1,7 +1,7 @@
 import datetime
 import logging
 datetimeFormat = "%Y%m%d%H%M%S%f"
-path = "C:/Users/Jason/Resilio Sync/JP/sql"
+path = "/path/to/sqlFiles/"
 inputFilename = "{}/Create.sql".format(path)
 outputFilename = "{}/Create{}.sql".format(path,datetime.datetime.now().strftime(datetimeFormat))
 includeWord = "INCLUDE"
